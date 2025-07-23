@@ -1,0 +1,77 @@
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #1976d2 0%, #42a5f5 100%);
+}
+
+.add-todo-card {
+  border-radius: 12px !important;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.todo-list-card {
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.v-data-table {
+  background: transparent;
+}
+
+.v-data-table__wrapper {
+  border-radius: 0 0 12px 12px;
+}
+
+// Custom hover effects for action buttons
+.v-btn {
+  transition: all 0.2s ease;
+}
+
+.v-btn:hover {
+  transform: translateY(-1px);
+}
+
+// Custom styling for completed todos
+.text-decoration-line-through {
+  opacity: 0.7;
+}
+
+// Pagination styling
+.v-pagination {
+  .v-btn {
+    margin: 0 2px;
+  }
+}
+
+// Custom card shadows
+.add-todo-card,
+.todo-list-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.add-todo-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+// Form spacing improvements
+.v-form {
+  .v-text-field,
+  .v-select {
+    margin-bottom: 8px;
+  }
+}
+
+// Button spacing
+.d-flex.gap-3 {
+  gap: 12px;
+}
+
+// Consistent padding for card titles
+.v-card-title {
+  padding: 16px !important;
+}
+
+// Better spacing for no-data state
+.text-center.pa-8 {
+  padding: 32px !important;
+}
