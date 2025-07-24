@@ -34,7 +34,7 @@
               <span class="text-h6">Todo List</span>
             </div>
           </v-card-title>
-          <v-data-table :headers="headers" :items="todos" :loading="isLoading" loading-text="Loading todos..." class="elevation-0" item-key="id">
+          <v-data-table :headers="headers" :items="todos" :loading="isLoading" loading-text="Loading todos..." class="elevation-0" item-key="id" hide-default-footer :items-per-page="-1" disable-pagination>
             <template #item.status="{ item }">
               <v-chip :color="getStatusColor(item.status)" :text-color="getStatusTextColor(item.status)" size="small" variant="flat">
                 {{ transformStatus(item.status) }}

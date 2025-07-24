@@ -75,3 +75,13 @@
 .text-center.pa-8 {
   padding: 32px !important;
 }
+
+// Hide items per page control
+.v-data-table-footer .v-data-table-footer__items-per-page,
+.v-data-table-footer__items-per-page {
+  display: none !important;
+}
+
+.v-data-table__footer .v-data-table-footer__items-per-page {
+  display: none !important;
+}
